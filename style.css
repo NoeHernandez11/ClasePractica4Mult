@@ -22,13 +22,13 @@ button {
   font-weight: 250;
 }
 
-.ceroButton {
+.ButtonCero {
   width: 100%;
   text-align: below;
   padding-left: 25px;
 }
 
-.igualButton {
+.ButtonIgual {
     height: 100%;
     text-align: center;
     padding-top: 27px;
