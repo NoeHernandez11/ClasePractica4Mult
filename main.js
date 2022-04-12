@@ -27,9 +27,9 @@ function igual() {
     input.value = eval(temporal + operacion + input.value);
   }
 }
-/* prox borrar */
-function inv() {
-  input.value = input.value * -1;
+
+function borrar() {
+  input.value = input.value.toString().slice(0,-1);
 }
 
 
