@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background-color: black;
+  }
+
+button {
+  width: 65px;
+  height: 63px;
+  border-radius: 18px;
+  border: none;
+  margin: 2px;
+  font-size: 30px;
+  font-weight: 250;
+}
+
+.ceroButton {
+  width: 100%;
+  text-align: below;
+  padding-left: 25px;
+}
+
+.igualButton {
+    height: 100%;
+    text-align: center;
+    padding-top: 27px;
+}
+
+.darkButton {
+  background-color: #424242;
+  color: white;
+}
+
+.GreenLButton {
+  background-color: #56CB95;
+  color: white;
+}
+
+.input {
+  border: none;
+  width: 250px;
+  font-size: 50px;
+  text-align: right;
+  background-color: black;
+  color: white;
+  font-weight: 200;
+}
+
+::-webkit-input-placeholder {
+  color: white;
+}
