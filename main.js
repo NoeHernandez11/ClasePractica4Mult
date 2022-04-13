@@ -41,3 +41,7 @@ function cleanInput() {
     operacion = '';
   }
 }
+
+function borrar() {
+  input.value = input.value.toString().slice(0,-1);
+}
